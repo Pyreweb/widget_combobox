@@ -17,8 +17,8 @@ On Android, this is a plain picker control.
 ![Android Picker](img/Screen%20Shot%204.png)
 
 ##Manifest
-* Version: 1.1 (stable)
-* Github: https://www.github.com/orthlieb/widget_combobox
+* Version: 2.1 (unstable)
+* Github: https://www.github.com/Pyreweb/widget_combobox
 * License: [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
 * Author: Carl Orthlieb
 * Supported Platforms: iOS (iPhone/iPad), Android
@@ -29,7 +29,7 @@ On Android, this is a plain picker control.
 
 ```
 "dependencies": {
-    "com.orthlieb.combobox":"1.1"
+    "com.orthlieb.combobox":"2.1"
 }
 ```
 
@@ -85,10 +85,9 @@ var colors = {
     violet: { title: "Violet", rgb: "#9400D3" }
 };
 
-$.color.init({ 
-	choices: colors,
-	id: $.color.id
-}, colors, $.color.id);
+$.color.init($.getViews());
+$.color.choices = colors;
+$.color.id = 'red'; //Or whatever you want to be selected
 ```
 ### Initialization Parameters
 
