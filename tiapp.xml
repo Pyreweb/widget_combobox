@@ -2,9 +2,9 @@
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>com.orthlieb.widget_combobox</id>
     <name>widget_combobox</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <publisher>Carl Orthlieb</publisher>
-    <url>http://</url>
+    <url>https://github.com/Pyreweb/widget_combobox/</url>
     <description>not specified</description>
     <copyright>2013 by Carl Orthlieb</copyright>
     <icon>appicon.png</icon>
@@ -46,8 +46,8 @@
         <target device="iphone">true</target>
         <target device="mobileweb">true</target>
     </deployment-targets>
-    <sdk-version>3.0.2.GA</sdk-version>
+    <sdk-version>4.0.1.GA</sdk-version>
     <plugins>
-        <plugin version="1.0">ti.alloy</plugin>
+        <plugin version="1.5">ti.alloy</plugin>
     </plugins>
 </ti:app>
